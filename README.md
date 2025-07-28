@@ -1,160 +1,149 @@
 # Christopher Munn - Systems Administrator Portfolio
 
+---
+
 ## 👋 About Me
 
-[cite_start]I'm Christopher Munn, an experienced Systems Administrator with over two decades managing and modernising IT infrastructure across diverse environments[cite: 2]. My expertise spans Windows Server, virtualization, email systems, and endpoint management. [cite_start]I am consistently trusted to solve complex problems, automate processes, and drive stability and performance across enterprise environments[cite: 3]. [cite_start]I hold certifications from Microsoft, Azure, CompTIA, and more, underlining my commitment to continuous learning and industry best practices[cite: 4, 27, 28].
+I'm Christopher Munn, an experienced Systems Administrator with over two decades managing and modernising IT infrastructure across diverse environments. My expertise spans Windows Server, virtualization, email systems, and endpoint management. I am consistently trusted to solve complex problems, automate processes, and drive stability and performance across enterprise environments. I hold certifications from Microsoft, Azure, CompTIA, and more, underlining my commitment to continuous learning and industry best practices.
 
 I am passionate about automating tasks with PowerShell to improve efficiency, ensuring robust backup and disaster recovery strategies, and leading successful infrastructure migrations.
 
-* [cite_start]**Email:** chris.munn@outlook.com [cite: 5]
-* [cite_start]**LinkedIn:** [https://www.linkedin.com/in/chrismunn/](https://www.linkedin.com/in/chrismunn/) [cite: 6]
-* [cite_start]**Location:** London, UK [cite: 8]
+* **Email:** chris.munn@outlook.com
+* **LinkedIn:** [https://www.linkedin.com/in/chrismunn/](https://www.linkedin.com/in/chrismunn/)
+* **Location:** London, UK
 
 ---
 
-## 🛠️ Key Skills & Technologies
+## 🛠️ Core Skills & Technologies
 
-Here's a breakdown of my core technical competencies:
+My technical proficiency spans a wide range of essential IT infrastructure domains:
 
-**Operating Systems:**
-* [cite_start]Windows Server (2012, 2016, 2019) [cite: 25]
-* [cite_start]Windows Client (Windows 10) [cite: 25]
-* [cite_start]macOS (JAMF Pro management) [cite: 16, 25]
+### Operating Systems & Virtualization
+* **Windows Server:** Expert in managing and migrating various versions (2012, 2016, 2019).
+* **Windows Client:** Proficient in Windows 10 deployment and management.
+* **macOS:** Experienced with enterprise management via JAMF Pro.
+* **VMware vSphere:** Expertise in upgrades (6.x to 7.x) and ongoing support.
+* **Hyper-V:** Experience supporting hybrid environments.
 
-**Virtualization:**
-* [cite_start]VMware (vSphere 6.x to 7.x upgrades) [cite: 14]
-* [cite_start]Hyper-V (Hybrid setup support) [cite: 15]
+### Identity & Directory Services
+* **Active Directory (AD):** Comprehensive management including structure, Group Policies (GPOs), compliance, and health monitoring (dcdiag, repadmin).
 
-**Identity & Directory Services:**
-* [cite_start]Active Directory (Structure, GPOs, Health Monitoring) [cite: 13, 14, 21]
-* Azure Active Directory (Implied by Azure Certs)
+### Email & Collaboration
+* **Microsoft Exchange:** Proven ability in maintaining Exchange 2016 and leading migrations (from Exchange 2010).
+* **PST Migration:** Led initiatives to migrate away from PST-based email storage.
 
-**Email & Collaboration:**
-* [cite_start]Microsoft Exchange (2010 to 2016 migrations) [cite: 15, 25]
-* [cite_start]PST Migration Strategies [cite: 22]
+### Endpoint Management & Deployment
+* **JAMF Pro:** Full lifecycle deployment including profile setup, app store management, and organizational policy enforcement.
+* **Microsoft Deployment Toolkit (MDT) & Windows Deployment Services (WDS):** Built and automated driver/app injection for efficient rollouts.
+* **Kaseya:** Implemented for patching, backups, and deployment, streamlining IT operations.
+* **Laptop Imaging:** Created strategies to standardize configurations and speed up deployments.
 
-**Endpoint Management & Deployment:**
-* [cite_start]JAMF Pro (Mac management, security/productivity tool deployment, profiles, app store, organizational policies) [cite: 16, 25]
-* [cite_start]Microsoft Deployment Toolkit (MDT) & Windows Deployment Services (WDS) [cite: 25]
-* [cite_start]Kaseya (Patching, backups, deployment) [cite: 23]
-* [cite_start]Laptop Imaging [cite: 23]
+### Backup & Disaster Recovery
+* **Veeam:** Led strategies for robust backup solutions.
+* **Rapid Recovery:** Utilized for comprehensive disaster recovery planning.
 
-**Backup & Disaster Recovery:**
-* [cite_start]Veeam [cite: 17]
-* [cite_start]Rapid Recovery [cite: 17]
+### Scripting & Automation
+* **PowerShell:** Automated critical processes such as user onboarding/offboarding.
 
-**Scripting & Automation:**
-* [cite_start]PowerShell (Onboarding/Offboarding automation) [cite: 13]
-
-**Networking & Telecom:**
-* [cite_start]VOIP & Softphone Technologies [cite: 22]
-* DNS, DHCP, TCP/IP (Standard Administrator skillset)
-
-**Helpdesk & Monitoring:**
-* [cite_start]ManageEngine Helpdesk [cite: 25]
-* [cite_start]dcdiag, repadmin (AD Health monitoring) [cite: 14]
+### Networking & Telecom
+* **VOIP & Softphone:** Deployed solutions that significantly cut telecom costs.
 
 ---
 
 ## 🚀 Featured Projects & Case Studies
 
-Here are some of my key projects, demonstrating my ability to deliver robust and efficient IT solutions. Each entry outlines the problem, my solution, the technologies used, and the impact.
+My portfolio of projects highlights my hands-on experience, problem-solving abilities, and impact on organizational efficiency and stability.
 
 ### **1. Windows 10 Enterprise Rollout & Automated Deployment System**
-* [cite_start]**Year:** 2019 [cite: 25]
-* **Problem:** Manual installation processes for new endpoints were time-consuming, inconsistent, and lacked scalability.
-* **Solution:** Designed and implemented a robust automated deployment solution using Microsoft Deployment Toolkit (MDT) and Windows Deployment Services (WDS). This involved building the server infrastructure, creating custom task sequences, and automating driver and application injection directly into the images.
-* **My Contributions:**
-    * [cite_start]Built and configured the MDT/WDS server from the ground up[cite: 25].
-    * Developed automated deployment sequences for Windows 10, ensuring standardized configurations.
-    * [cite_start]Streamlined driver and application installation processes, reducing post-deployment manual intervention[cite: 25].
-    * Ensured compatibility and efficiency across diverse hardware.
-* **Technologies Used:** Windows Server, Microsoft Deployment Toolkit (MDT), Windows Deployment Services (WDS), PowerShell, Group Policy.
-* **Impact:** Significantly reduced the time required for new endpoint deployments, improved consistency across the environment, and provided a scalable solution for future OS upgrades.
+* **Year:** 2019
+* **Challenge:** Manual OS deployments were time-consuming and inconsistent, leading to inefficient user onboarding and support challenges.
+* **Solution:** Designed and implemented a robust automated deployment solution using Microsoft Deployment Toolkit (MDT) and Windows Deployment Services (WDS). This involved building the server infrastructure and automating driver and application injection directly into the images.
+* **My Role:** Led the design, implementation, and automation of the Windows 10 deployment process.
+* **Key Contributions:**
+    * Built and configured the MDT/WDS server from the ground up.
+    * Developed automated task sequences for OS installation, driver injection, and application deployment.
+    * Managed image updates and driver packages for diverse hardware.
+* **Technologies Used:** Windows Server, MDT, WDS, PowerShell, Group Policy.
+* **Impact:** Significantly reduced the time required for new endpoint deployments (e.g., contributing to a 30-45 minute reduction per user for onboarding/offboarding), improved consistency across the environment, and provided a scalable solution.
 
 ### **2. Enterprise Exchange Mailbox Migration (Exchange 2010 to 2016)**
-* [cite_start]**Year:** 2023 [cite: 25]
-* **Problem:** The existing Exchange 2010 environment was approaching end-of-life, posing security risks and lacking modern functionalities.
+* **Year:** 2023
+* **Challenge:** The existing Exchange 2010 environment was approaching end-of-life, posing security risks and lacking modern functionalities.
 * **Solution:** Led the complex migration of all mailboxes and public folders from Exchange 2010 to Exchange 2016. This involved careful planning, phased migration strategies, and extensive post-migration validation.
-* **My Contributions:**
-    * [cite_start]Managed the end-to-end migration process, including planning, execution, and troubleshooting[cite: 25].
-    * Ensured minimal disruption to end-users during the migration.
-    * [cite_start]Addressed data integrity for both mailboxes and public folders[cite: 25].
-    * Configured the new Exchange 2016 environment for optimal performance and security.
+* **My Role:** Managed the end-to-end planning, execution, and post-migration support for the Exchange environment upgrade.
+* **Key Contributions:**
+    * Conducted a comprehensive assessment and designed the new Exchange 2016 architecture.
+    * Performed phased mailbox and public folder migrations using native Exchange tools, minimizing user impact.
+    * Configured coexistence between Exchange 2010 and 2016 during the transition.
 * **Technologies Used:** Microsoft Exchange Server 2010, Microsoft Exchange Server 2016, Active Directory, PowerShell.
 * **Impact:** Modernized the organization's email infrastructure, enhanced security posture, improved reliability, and enabled access to newer Exchange features.
 
 ### **3. JAMF Pro Deployment for Mac Management**
-* [cite_start]**Year:** 2022 [cite: 25]
-* **Problem:** Lack of centralized management for macOS devices, leading to inconsistent configurations, security vulnerabilities, and inefficient application deployment.
+* **Year:** 2022
+* **Challenge:** Lack of centralized management for macOS devices led to inconsistent configurations, security vulnerabilities, and inefficient application deployment.
 * **Solution:** Deployed and configured JAMF Pro to establish comprehensive management of Mac devices across the organization.
-* **My Contributions:**
-    * [cite_start]Set up and configured JAMF Pro, including enrollment, inventory, and reporting capabilities[cite: 25].
-    * [cite_start]Created and deployed configuration profiles to enforce organizational policies and security standards[cite: 25].
-    * [cite_start]Managed the internal app store for streamlined application deployment and updates[cite: 25].
-    * Integrated JAMF Pro with existing identity management systems.
+* **My Role:** Spearheaded the JAMF Pro implementation.
+* **Key Contributions:**
+    * Set up profiles, app store, and organizational policies within JAMF Pro.
+    * Ensured security and productivity tool deployment across the Mac fleet.
 * **Technologies Used:** JAMF Pro, macOS, Active Directory.
 * **Impact:** Centralized management of macOS devices, significantly improving security, compliance, and efficiency in deploying software and configurations.
 
 ### **4. Automated User Onboarding & Offboarding with PowerShell**
-* **Problem:** Manual processes for creating and deactivating user accounts across multiple systems were time-consuming and prone to human error.
-* **Solution:** Developed and implemented PowerShell scripts to fully automate the onboarding and offboarding procedures for users.
-* **My Contributions:**
-    * Authored robust PowerShell scripts to create/delete user accounts in Active Directory, configure mailbox settings, assign group memberships, and manage access to network resources.
-    * Integrated with other systems where possible to streamline the entire lifecycle.
+* **Challenge:** Manual processes for creating and deactivating user accounts across multiple systems were time-consuming and prone to human error, consuming 30-45 minutes per user.
+* **Solution:** Developed and implemented robust PowerShell scripts to fully automate the onboarding and offboarding procedures for users.
+* **My Role:** Designed, developed, and maintained automation scripts for user lifecycle management.
+* **Key Contributions:**
+    * Authored PowerShell scripts to automate account creation/deletion in Active Directory, mailbox configuration, group assignments, and resource access.
     * Continuously refined scripts for efficiency and error handling.
-* **Technologies Used:** PowerShell, Active Directory, Exchange Management Shell (implied for mailbox management).
-* [cite_start]**Impact:** Reduced onboarding/offboarding time by 30-45 minutes per user[cite: 13], drastically improving efficiency, ensuring consistency, and reducing the potential for security oversights related to manual processes.
+* **Technologies Used:** PowerShell, Active Directory, Exchange Management Shell.
+* **Impact:** **Cut 30-45 minutes per user** from onboarding/offboarding processes, drastically improving efficiency, ensuring consistency, and reducing the potential for security oversights related to manual processes.
 
-### **5. Server Operating System Migrations (Windows Server 2012 to 2016/2019)**
-* [cite_start]**Year:** 2023 [cite: 25]
-* **Problem:** Aging Windows Server 2012 infrastructure was nearing end-of-life, lacking modern features, and posing security risks.
-* **Solution:** Executed phased migrations of server workloads from Windows Server 2012 to newer versions (2016/2019).
-* **My Contributions:**
-    * [cite_start]Planned and executed the migration of critical business workloads[cite: 25].
-    * Ensured application compatibility and minimal downtime during transitions.
-    * Leveraged virtualization capabilities (VMware/Hyper-V) for efficient migration strategies.
+### **5. Enterprise Server Operating System Migrations**
+* **Year:** 2023
+* **Challenge:** Aging Windows Server 2012 infrastructure was nearing end-of-life, lacking modern features, and posing security risks.
+* **Solution:** Executed phased migrations of server workloads from Windows Server 2012 to newer, supported versions (2016/2019).
+* **My Role:** Planned and executed the modernization of core server infrastructure.
+* **Key Contributions:**
+    * Managed the migration of critical business workloads, ensuring application compatibility.
+    * Leveraged virtualization (VMware/Hyper-V) for efficient migration strategies.
 * **Technologies Used:** Windows Server 2012, 2016, 2019, VMware, Hyper-V, Active Directory.
 * **Impact:** Enhanced security, improved performance, and ensured the stability and supportability of core business applications on modern server platforms.
 
 ---
 
-## 📜 Certifications
+## 📜 Certifications & Education
 
-My commitment to professional development is underlined by the following certifications:
+My commitment to continuous learning and professional development is demonstrated through these key certifications and my academic background.
 
-* [cite_start]**Microsoft:** AZ-900 (Azure Fundamentals), MS-900 (Microsoft 365 Fundamentals), SC-900 (Microsoft Security, Compliance, and Identity Fundamentals), MCSE [cite: 27]
-* [cite_start]**CompTIA:** A+, Network+, Security+, CSIS, CIOS [cite: 28]
+### Certifications
+* **Microsoft:** AZ-900 (Azure Fundamentals), MS-900 (Microsoft 365 Fundamentals), SC-900 (Microsoft Security, Compliance, and Identity Fundamentals), MCSE
+* **CompTIA:** A+, Network+, Security+, CSIS, CIOS
 
----
-
-## 🎓 Education
-
-* [cite_start]**University of Maine, Orono** [cite: 30]
+### Education
+* **University of Maine, Orono**
 
 ---
 
-## 📈 Work Experience Summary
+## 💼 Professional Experience
 
-A brief overview of my professional journey:
+### **Systems Administrator** | United Grand Lodge of England
+* *November 2014 - May 2024*
+* Automated onboarding/offboarding with PowerShell, cutting 30-45 minutes per user.
+* Managed AD structure, GPOs, and compliance standards across all user devices.
+* Monitored AD health using dcdiag and repadmin, ensuring domain reliability.
+* Oversaw VMware upgrade from 6.x to 7.x; supported hybrid Hyper-V setup.
+* Maintained Exchange 2016 and led migration from Exchange 2010.
+* Rolled out JAMF Pro for Mac management; deployed security and productivity tools.
+* Led backup and disaster recovery strategies using Veeam and Rapid Recovery.
+* Supported and mentored Desktop Support on escalated infrastructure issues.
 
-### [cite_start]**Systems Administrator** [cite: 11] | [cite_start]United Grand Lodge of England [cite: 10]
-* [cite_start]November 2014 - May 2024 [cite: 12]
-* [cite_start]Automated onboarding/offboarding with PowerShell, cutting 30-45 minutes per user[cite: 13].
-* [cite_start]Managed AD structure, GPOs, and compliance standards across all user devices[cite: 13].
-* [cite_start]Monitored AD health using dcdiag and repadmin, ensuring domain reliability[cite: 14].
-* [cite_start]Oversaw VMware upgrade from 6.x to 7.x; supported hybrid Hyper-V setup[cite: 14, 15].
-* [cite_start]Maintained Exchange 2016 and led migration from Exchange 2010[cite: 15].
-* [cite_start]Rolled out JAMF Pro for Mac management; deployed security and productivity tools[cite: 16].
-* [cite_start]Led backup and disaster recovery strategies using Veeam and Rapid Recovery[cite: 17].
-* [cite_start]Supported and mentored Desktop Support on escalated infrastructure issues[cite: 17].
-
-### [cite_start]**IT Systems Administrator** [cite: 19] [cite_start]| prIME Oncology (Atlanta, GA) [cite: 18]
-* [cite_start]April 2010 - August 2013 [cite: 20]
-* [cite_start]Managed AD, GPOs, and infrastructure across global offices (Atlanta, The Hague, Moscow)[cite: 21].
-* [cite_start]Led migration away from PST-based email storage, improving access and security[cite: 22].
-* [cite_start]Deployed VOIP and softphone tech, significantly cutting telecom costs[cite: 22].
-* [cite_start]Rolled out Kaseya for patching, backups, and deployment-streamlining IT ops[cite: 23].
-* [cite_start]Created laptop imaging strategy, speeding up deployments and standardizing configs[cite: 23].
+### **IT Systems Administrator** | prIME Oncology (Atlanta, GA)
+* *April 2010 - August 2013*
+* Managed AD, GPOs, and infrastructure across global offices (Atlanta, The Hague, Moscow).
+* Led migration away from PST-based email storage, improving access and security.
+* Deployed VOIP and softphone tech, significantly cutting telecom costs.
+* Rolled out Kaseya for patching, backups, and deployment, streamlining IT ops.
+* Created laptop imaging strategy, speeding up deployments and standardising configs.
 
 ---
