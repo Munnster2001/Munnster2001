@@ -1,4 +1,4 @@
-# Christopher Munn - Systems Administrator Portfolio
+# Christopher Munn - Systems Administrator
 
 ---
 
